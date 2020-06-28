@@ -1,0 +1,107 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    background: whitesmoke;
+  
+  }
+  
+  .Navbar {
+    text-align: left;
+    height: 100%;
+    background-color: #111; 
+    overflow-x: hidden; 
+    transition: 0.4s; 
+    display: inline-block;
+    position: fixed;
+    width: 56px;
+    z-index: 10;
+    padding-top: 10px;
+  }
+  
+  .Navbar:hover {
+    width: 220px;
+  }
+  
+  .NavbarMobile {
+    text-align: left;
+    height: 42px;
+    width: 100%;
+    background-color: #111; 
+    overflow-y: hidden; 
+    transition: 0.5s; 
+    position: fixed;
+    display: none;
+    z-index: 10;
+  }
+
+  .NavbarMobile.expand {
+    height: 360px;
+  }
+
+  .Navbar a, .NavbarMobile a {
+    padding: 2px;
+    padding-left: 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s;
+    color: #a3a3a3;
+  }
+
+  .Navbar a p {
+    padding-left: 40px;
+  }
+
+  .Navbar a:hover, .NavbarMobile a:hover {
+    color: #fff;
+    transition: 0.3s;
+    padding-left: 40px;
+    background: #1f1f1f;
+  }
+  
+  .NavbarButton {
+    display: block;
+  }
+  
+  .NavbarMobileButton {
+    margin-top: 8px;
+    background: none;
+    border: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .Navbar {
+      display: none;
+    }
+    .NavbarMobile {
+      display: block;
+    }
+    .App {
+      display: contents;
+    }
+    .Content {
+      margin: 2%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .Content {
+      margin: 2%;
+      margin-left: calc(2% + 56px); 
+    }
+  }
+  
+  .MenuIcons {
+    position: absolute;
+    margin-top: 12px;
+  }
+
+  .IndexIcon {
+    width: 24px;
+    border-radius: 0px;
+    margin: 4px 0px 10px -2px;
+  }

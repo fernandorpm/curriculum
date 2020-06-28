@@ -1,0 +1,63 @@
+.ContainerIndex {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.SocialPack {
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+}
+
+.HireButton {
+  background: linear-gradient(130deg, #d53a9d, #743ad5);
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.HireButton:hover {
+  opacity: 0.6;
+}
+
+.HireAlert {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6d6d6d;
+}
+
+.SocialButton {
+  color: #6d6d6d;
+  margin: 0.5%;
+  text-align: center;
+  padding: 8px;
+  padding-top: 16px;
+  transition: 0.2s;
+}
+
+.SocialButton:hover {
+  color: #111;
+  background: #e3e3e3;
+  border-radius: 8px;
+}
+
+.Sub {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+img {
+  width: 200px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}

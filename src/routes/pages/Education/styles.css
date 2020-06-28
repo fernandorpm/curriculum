@@ -1,0 +1,55 @@
+.ContainerEducation {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TopCard {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    vertical-align: top;
+    transition: 0.4s;
+    height: fit-content;
+}
+
+.TopCard p {
+    margin-top: 0px;
+}
+
+.TopCardBorder {
+    flex: 1 1 300px;
+    margin: -5px 3% 1% 0%;
+    padding: 5px;
+    height: fit-content;
+    position: relative;
+    background: linear-gradient(130deg, #B2FF59, #00C853);
+    box-shadow: 0px 2px 5px #e4e4e4;
+    border-radius: 5px;
+}
+
+.SubCardList {
+    vertical-align: top;
+    transition: 0.4s;
+    flex: 1 1 50%;
+}
+
+.SubCard {
+    background: #fff;
+    box-shadow: 0px 2px 5px #e4e4e4;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 1%;
+}
+
+.SubCard p {
+    margin-top: 0px;
+}
+
+@media (max-width:768px) {
+    .ContainerEducation {
+        padding-top: 48px;
+    }
+    .TopCardBorder {
+        margin: 0% -5px 1% -5px;
+    }
+}

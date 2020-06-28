@@ -1,0 +1,93 @@
+.ContainerProjects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TopCard {
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    vertical-align: top;
+    transition: 0.4s;
+    height: fit-content;
+}
+
+.TopCard p {
+    margin-top: 0px;
+}
+
+.TopCard ul li {
+    text-align: justify;
+}
+
+.TopCardBorder {
+    flex: 1 1 400px;
+    margin: -5px 1% 1% 0%;
+    padding: 5px;
+    height: fit-content;
+    background: linear-gradient(130deg, #B2FF59, #00C853);
+    box-shadow: 0px 2px 5px #e4e4e4;
+    border-radius: 5px;
+}
+
+.SubCardList {
+    vertical-align: top;
+    transition: 0.4s;
+    flex: 1 1 50%;
+}
+
+.SubCard {
+    background: #fff;
+    box-shadow: 0px 2px 5px #e4e4e4;
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 1%;
+}
+
+.SubCard p {
+    margin-top: 0px;
+}
+
+@media (max-width:768px) {
+    .ContainerProjects {
+        padding-top: 48px;
+    }
+    .TopCardBorder {
+        margin: 0% -5px 1% -5px;
+    }
+}
+
+.VisitButton {
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.VisitIcon {
+
+    padding: 10px 10px;
+    text-decoration: none;
+    background: #111;
+    color: #e3e3e3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.VisitButton p {
+    text-decoration: none;
+    margin-bottom: 0;
+    margin-top: 40px;
+    padding: 10px 20px 10px 10px;
+    background: #e3e3e3;
+    color: #111;
+    transition: 0.2s;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}   
+
+
+.VisitButton:hover p {
+    background: #111;
+    color: #fff;
+}
+
